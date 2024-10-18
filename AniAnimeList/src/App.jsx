@@ -6,7 +6,7 @@ import {SafeAreaView,StyleSheet,Text,View} from 'react-native'
 const App = () => {
   return (
     <SafeAreaView>
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName = "./src/Home">
         <Stack.Screen name = "Home" component ={HomeScreen}/>
       </Stack.Navigator>
     </SafeAreaView>
