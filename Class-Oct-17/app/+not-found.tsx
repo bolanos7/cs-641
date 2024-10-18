@@ -4,7 +4,7 @@ import { StyleSheet, Text } from "react-native";
 export default function NotFoundScreen() {
   return (
     <>
-      <Text>404 Not Found</Text>
+      <Text>405 Not Found</Text>
     </>
   );
 }
