@@ -7,10 +7,10 @@ export default function WelcomeScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to Next Movie</Text>
       <Text style={styles.subtitle}>Please sign in or sign up to continue</Text>
-      <Link href="/sign-in" asChild>
+      <Link href="/sign_in" asChild>
         <Button title="Sign In" />
       </Link>
-      <Link href="/sign-up" asChild>
+      <Link href="/sign_up" asChild>
         <Button title="Sign Up" />
       </Link>
     </View>
