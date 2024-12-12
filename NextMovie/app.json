@@ -11,6 +11,14 @@
     "ios": {
       "supportsTablet": true
     },
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "TMDB_API_KEY": "1b77e040a6edab81c3e7d4261b432470"
+    },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
